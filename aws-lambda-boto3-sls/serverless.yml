@@ -1,0 +1,13 @@
+org: davila7
+app: aws-python
+service: aws-lambda-boto3-sls
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
